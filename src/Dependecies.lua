@@ -18,6 +18,16 @@ require 'src/world/Doorway'
 require 'src/world/Dungeon'
 require 'src/world/Room'
 
+require 'src/states/BaseState'
+
+require 'src/states/entity/EntityIdleState'
+require 'src/states/entity/EntityWalkState'
+
+require 'src/states/entity/player/PlayerIdleState'
+require 'src/states/entity/player/PlayerSwingSwordState'
+require 'src/states/entity/player/PlayerWalkState'
+
+
 
 
 gTextures = {
